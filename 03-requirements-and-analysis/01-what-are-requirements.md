@@ -1,41 +1,46 @@
 # What Are Requirements?
 
-- **Phase:** 3 — Requirements and Analysis
-- **Status:** Learning
+**Time:** 5 minutes · **Level:** Beginner
 
-## Simple definition
+## 1. The idea
 
-A **requirement** describes something a software system must do or a condition it must satisfy.
+A **requirement** says what users need the software to do, or what condition it must meet.
 
-Requirements help the team understand what to build before deciding exactly how to build it.
+It helps the team understand what to build.
 
-## Banking example
+## 2. Our project example
 
-Imagine a customer asks for a banking application.
+Students want to report problems at university.
 
 Possible requirements:
-- A customer can create an account.
-- A customer can deposit money.
-- A customer can withdraw money.
-- A customer can transfer money.
-- A blocked account cannot make a withdrawal.
+- A student can send a report.
+- A student can see the report's status.
+- Staff can view reports assigned to them.
+- Staff can mark a report as solved.
 
-These are examples of system behavior. They are more precise than saying, “Make a good banking app.”
+These are examples of what the system should allow.
 
-## Requirement vs. feature
+## 3. Why do requirements matter?
 
-| Requirement | Feature |
-|---|---|
-| A statement of what the system must do or satisfy | A capability the product provides |
-| Often written before or during planning | The capability users receive in the product |
-| Example: “A customer can deposit a positive amount” | Example: “Deposit money” |
+Imagine the team builds an app, but students cannot see whether their reports were solved.
 
-They are closely related. A feature may be described by several requirements and rules.
+The app may work, but it does not fully meet the users' needs.
 
-## Why clear requirements matter
+Clear requirements help the team build the right product.
 
-If the team misunderstands the need, it may build software that works technically but does not solve the user's problem.
+## 4. Requirement vs. feature
 
-## Key idea
+- **Requirement:** what the system must do.
+- **Feature:** a capability the product provides.
 
-A requirement explains what is needed. It gives the team a target for design, implementation, and testing.
+Example: “A student can send a report” is a requirement. “Report submission” is a feature.
+
+## 5. Remember this
+
+**Before building software, understand what people need from it.**
+
+## 6. Quick check
+
+Is “students can track their reports” a possible requirement?
+
+**Answer:** Yes.
