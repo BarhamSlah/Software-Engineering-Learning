@@ -1,16 +1,10 @@
-# 07 — Quality and Testing
+# Part 5 — Check the Product
 
-**Your status:** Not assessed yet. Your calculator example correctly describes a bug: expected 10, actual 11.
+Study these lessons:
 
-## Learn in this order
+1. [Features and Bugs](01-features-bugs-and-expected-behavior.md)
+2. [Why Do We Test Software?](02-why-testing-matters.md)
 
-1. [Features, bugs, and expected behavior](01-features-bugs-and-expected-behavior.md)
-2. [Why software testing matters](02-why-testing-matters.md)
-3. Test cases and edge cases
-4. Unit, integration, and end-to-end testing
-5. Debugging and regression testing
-6. Maintainability and refactoring
+Later, we will learn simple test types and how teams fix problems.
 
-**Key idea:** Code that compiles can still be wrong. Testing checks behavior against requirements.
-
-**Completion goal:** Explain how to check normal, invalid, and unusual situations.
+**Goal:** Understand how a team checks whether software works correctly.
