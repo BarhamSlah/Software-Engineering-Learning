@@ -1,17 +1,16 @@
-# Quality and Testing
+# 07 — Quality and Testing
 
-## Scope
+**Your status:** Not assessed yet. Your calculator example correctly describes a bug: expected 10, actual 11.
 
-Verification, validation, unit and integration testing, test design, debugging, refactoring, and code quality.
+## Learn in this order
 
-## Suggested starting point
+1. [Features, bugs, and expected behavior](01-features-bugs-and-expected-behavior.md)
+2. [Why software testing matters](02-why-testing-matters.md)
+3. Test cases and edge cases
+4. Unit, integration, and end-to-end testing
+5. Debugging and regression testing
+6. Maintainability and refactoring
 
-Learn how to build confidence that software behaves correctly.
+**Key idea:** Code that compiles can still be wrong. Testing checks behavior against requirements.
 
-## Lessons
-
-Lessons will be added after the baseline assessment, in a sequence that matches the learner's current understanding.
-
-## Status
-
-Not started.
+**Completion goal:** Explain how to check normal, invalid, and unusual situations.
