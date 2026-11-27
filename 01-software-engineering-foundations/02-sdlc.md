@@ -1,69 +1,66 @@
 # The Software Development Life Cycle (SDLC)
 
-- **Phase:** 1 — Foundations
-- **Status:** Learning
+**Time:** 7 minutes · **Level:** Beginner
 
-## 1. Simple definition
+## 1. The idea
 
-**SDLC** means **Software Development Life Cycle**. It is a way to organize the work of creating, releasing, and supporting software.
+**SDLC** means **Software Development Life Cycle**.
 
-It does not mean every team follows one fixed sequence. Teams may repeat steps, do some work in parallel, or release small improvements often.
+It is the main journey of creating software, releasing it, and looking after it.
 
-## 2. The main stages
+## 2. The journey
 
-```text
+```
 Idea
  ↓
-Planning
+Plan
  ↓
-Requirements and Analysis
+Understand what users need
  ↓
 Design
  ↓
-Implementation
+Build
  ↓
-Testing
+Test
  ↓
-Deployment / Release
+Release
  ↓
-Maintenance and Improvement
- ↺ (feedback can start new work)
+Maintain and improve
 ```
 
-| Stage | Simple meaning | Banking app example |
-|---|---|---|
-| Idea | A problem or opportunity | People need to manage accounts online |
-| Planning | Decide goals, effort, people, time, and risks | Estimate what the first version needs |
-| Requirements and analysis | Understand exactly what users and business need | Users can deposit and transfer money |
-| Design | Plan how the system and its parts will work | Plan account rules, screens, API, and database |
-| Implementation | Build the solution | Developers implement the planned behavior |
-| Testing | Check expected behavior and find defects | Verify deposits, withdrawals, and invalid transfers |
-| Deployment | Release the application to an environment for use | Make the application available to customers |
-| Maintenance | Fix, support, and improve it after release | Fix defects and add approved improvements |
+## 3. Simple example: Campus Help Desk
 
-## 3. Your current understanding
+| Step | What happens? |
+|---|---|
+| Idea | Students need a way to report campus problems |
+| Plan | Decide what the first version should include |
+| Requirements | Decide what students and staff need |
+| Design | Plan how reports move through the system |
+| Build | Developers create the app |
+| Test | Check that reports can be sent and managed |
+| Release | Make the app available to the university |
+| Maintain | Fix problems and improve the app |
 
-You already named idea, planning, analysis, design, and implementation. That is a good beginning. The important missing stages are:
-- **Testing:** Does it behave correctly?
-- **Deployment:** How does it become available to users?
-- **Maintenance:** How do we support and improve it after release?
+## 4. Three words to remember
 
-## 4. Important differences
+- **Build / implementation:** create the software.
+- **Testing:** check that it works correctly.
+- **Deployment:** release it so people can use it.
 
-- **Implementation is not deployment.** Implementation builds the software; deployment releases it.
-- **Testing is not only after all coding.** Teams often test during development too.
-- **The lifecycle is not always one-way.** Testing may reveal a problem in requirements or design, so the team goes back and improves it.
+They are different things.
 
-## 5. Why SDLC matters
+## 5. Important
 
-Without a clear process, a team may build the wrong thing, miss important risks, release defects, or struggle to maintain the product. SDLC gives people a shared way to organize the work.
+A team may repeat steps. For example, testing may find a problem, so the team changes the design or code and tests again.
 
-## 6. Key idea
+## 6. Remember this
 
-**A software product is not finished when coding ends. It must also be checked, released, and maintained.**
+**Software work does not end when coding ends. The team must test, release, and maintain the product.**
 
-## 7. Check your understanding
+## 7. Quick check
 
-1. Which stage decides what the system must do?
-2. What is the difference between implementation and deployment?
-3. Why might a team return to the design stage after testing?
+1. Which step checks that the app works?
+2. Which step makes it available to users?
+3. Does the team always move forward without returning to an earlier step?
+
+**Answers:** 1. Testing. 2. Deployment. 3. No.
