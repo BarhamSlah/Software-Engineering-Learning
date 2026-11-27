@@ -1,50 +1,43 @@
 # Branches and Commits
 
-- **Phase:** 2 — Professional Workflow
-- **Status:** Learning
+**Time:** 5 minutes · **Level:** Beginner
 
-## What is a branch?
+## 1. What is a branch?
 
-A **branch** is a separate line of work in a Git repository. It lets a developer work on a change without directly changing the main branch.
+A **branch** is a separate place to work on a change without changing the main version directly.
 
-Example: You want to add an account-blocking feature. You can create a branch for that feature and work there.
+Example: One developer works on “student report form” in a new branch.
 
-## What is a commit?
+## 2. What is a commit?
 
-A **commit** records a set of changes in Git. A useful commit message says what the change does.
+A **commit** is a saved record of changes.
 
-Example message: `Add account blocking validation`.
+Think of it like a checkpoint in the project's history.
 
-## A common workflow
+## 3. Simple picture
 
-```text
-main branch
+```
+Main project
     |
-create feature branch
+New branch for a feature
     |
-make and review local changes
+Make changes
     |
-commit changes
+Save a commit
     |
-push branch to GitHub
-    |
-open Pull Request
+Ask the team to review
 ```
 
-## Why use branches?
+## 4. Why do teams use branches?
 
-- Keep unfinished work separate.
-- Allow different developers to work in parallel.
-- Make review easier.
-- Reduce the risk of accidentally mixing unrelated changes.
+They help developers work on different tasks without mixing unfinished changes into the main version.
 
-## Important terms
+## 5. Remember this
 
-- **Working tree:** Your current files.
-- **Staging area:** The changes selected for the next commit.
-- **Remote:** A copy of the repository hosted elsewhere, often on GitHub.
-- **Merge:** Combine changes from one branch into another.
+**Branch = separate work. Commit = saved change.**
 
-## Key idea
+## 6. Quick check
 
-A branch is a place to develop a change; a commit records a point in that work.
+If you want to add a new feature without changing the main version immediately, what can you use?
+
+**Answer:** A branch.
