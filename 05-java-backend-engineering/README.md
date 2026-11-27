@@ -1,17 +1,16 @@
-# Java Backend Engineering
+# 05 — Java Backend Engineering
 
-## Scope
+**Your status:** Not fully assessed in the initial Software Engineering questions. You already have Java/OOP experience, so this section connects that knowledge to complete backend applications.
 
-Java backend practices, build tools, Spring, dependency injection, REST controllers, validation, configuration, and authentication basics.
+## Learn in this order
 
-## Suggested starting point
+1. [What does a backend do?](01-what-a-backend-does.md)
+2. Request flow: controller → service → repository → database
+3. Java application responsibilities and layers
+4. Maven/Gradle and dependencies
+5. Spring and Spring Boot
+6. Dependency injection
+7. Validation, errors, and logging
+8. Authentication and authorization
 
-Connect software engineering principles to Java backend applications.
-
-## Lessons
-
-Lessons will be added after the baseline assessment, in a sequence that matches the learner's current understanding.
-
-## Status
-
-Not started.
+**Completion goal:** Explain what happens when a user sends a request to a Java backend.
