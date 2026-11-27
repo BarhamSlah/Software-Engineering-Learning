@@ -1,40 +1,42 @@
 # What Is Deployment?
 
-- **Phase:** 8 — Delivery and Operations
-- **Status:** Needs learning
+**Time:** 5 minutes · **Level:** Beginner
 
-## Simple definition
+## 1. The idea
 
-**Deployment** is the process of releasing a software version to an environment where it can run and be used.
+**Deployment** means putting software into an environment where people can use it.
 
-## Simple example
+## 2. Simple example
 
-Your Java banking application works on your laptop. Customers cannot use it just because it runs on your computer.
+You build the Campus Help Desk app on your computer.
 
-A team may:
-1. Prepare and build the application.
-2. Configure the environment.
-3. Put the application on a server or hosting platform.
-4. Start it and check that it works.
-5. Make it available to users.
+Students cannot use it yet.
 
-That release process is deployment.
+The team must release it to a server or hosting service so students can open it.
 
-## Local vs. production
+That is deployment.
 
-| Environment | Meaning |
+## 3. Three places software may run
+
+| Place | Meaning |
 |---|---|
-| Local/development | Runs on a developer's computer |
-| Test/staging | Used to check a release before real users rely on it |
-| Production | The live environment used by real users or systems |
+| Development | Developer's computer |
+| Testing | A place to check the app before release |
+| Production | The live version used by real users |
 
-## Deployment vs. GitHub push
+## 4. GitHub vs. deployment
 
-- **Push:** Sends commits to a remote Git repository such as GitHub.
-- **Deployment:** Releases the application to an environment where it can run.
+- Sending code to GitHub shares the project files.
+- Deployment makes the application available to run.
 
-They are different actions. A team may automate deployment after changes are merged, but that is a chosen workflow, not the meaning of push itself.
+They are not the same thing.
 
-## Key idea
+## 5. Remember this
 
-Deployment moves a built application into an environment where it can be used. It is not simply uploading source code.
+**Deployment makes the application available for people to use.**
+
+## 6. Quick check
+
+If your code is on GitHub but students cannot open the app, has it necessarily been deployed?
+
+**Answer:** No.
