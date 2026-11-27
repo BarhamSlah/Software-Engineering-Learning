@@ -1,58 +1,56 @@
-# Campus Service Request System — Project Brief
+# Our One Project: Campus Help Desk
 
-## Why we are using this project
+**A simple project we will use throughout the whole course.**
 
-This is the single case study for the Software Engineering course. It gives us a realistic problem that we can analyze from beginning to end. The purpose is to practice engineering thinking—not to build a complete application in code.
+## 1. The problem
 
-## The situation
+Imagine students at a university have problems:
+- A classroom projector is broken.
+- The air conditioner does not work.
+- A computer in the lab is broken.
 
-Imagine a university where students report problems with campus facilities and services. Examples:
+Today, students may tell someone in person or send a message. They may not know if anyone is fixing the problem.
 
-- A projector in a classroom is not working.
-- A classroom air conditioner needs repair.
-- A student cannot access a university service.
-- A shared computer lab needs maintenance.
+## 2. Our idea
 
-Today, reports may be sent informally through messages or in person. It can be difficult to know who is responsible, whether anyone is working on the issue, and whether it has been resolved.
+Create a simple app called **Campus Help Desk**.
 
-The university is considering a simple system to organize these requests.
+Students can:
+1. Send a problem report.
+2. See their report.
+3. Check whether it is new, being fixed, or solved.
 
-## People involved (initial assumptions)
+Staff can:
+1. See reports.
+2. Work on a report.
+3. Update its status.
 
-- **Student:** submits a request and checks its status.
-- **Service staff member:** reviews and works on assigned requests.
-- **Administrator:** manages users, categories, and overall request activity.
-- **University manager:** wants visibility into unresolved issues and service performance.
+## 3. Who uses it?
 
-These are starting assumptions for learning. In a real project, engineers would confirm them with stakeholders.
+- **Student:** reports a problem.
+- **Staff:** solves the problem.
+- **Admin:** manages the system.
 
-## Initial idea
+## 4. How we will learn
 
-A student can submit a service request with a title, description, category, and optional location. Staff can review and update the request. The student can see progress.
+We will build our knowledge step by step:
 
-Do not treat this paragraph as a complete requirements specification. Part of the course is learning how to ask questions and discover what is missing.
+| Course topic | What we do for this project |
+|---|---|
+| Software Engineering | Understand why the app is needed |
+| Requirements | Decide what students and staff need |
+| Design | Plan how the app should work |
+| Teamwork | Understand who does each job |
+| Development | Understand how the app is built |
+| Database | Decide what information must be saved |
+| Testing | Check different situations |
+| Deployment | Plan how students can use it |
+| Maintenance | Improve the app after release |
 
-## Initial boundaries
+## 5. Important
 
-For the first version, assume:
-- The system is for campus service requests, not academic grading or student registration.
-- Users have different roles and permissions.
-- A request has a status and a history of updates.
-- We have not yet decided the exact technology, interface, or deployment method.
+We are not going to write code in every lesson. You can follow the whole course on your phone. We will use simple diagrams, examples, and short questions.
 
-## Questions we will investigate during the course
+## 6. Our rule
 
-1. Who are the real stakeholders, and what does each need?
-2. What problems should the first version solve?
-3. Which requirements are functional and which are non-functional?
-4. What rules control request assignment and status changes?
-5. What information must be stored?
-6. How should the system be divided into components?
-7. How will we know that it works correctly?
-8. What privacy and security risks exist?
-9. How will it be released and monitored?
-10. How will it be maintained when requirements change?
-
-## Important learning rule
-
-We will not jump straight to a solution. First understand the problem, then discover requirements, then design, then plan quality and delivery. This is the central habit the case study is meant to develop.
+One small step at a time. We will not design everything today. First, we must understand the problem.
