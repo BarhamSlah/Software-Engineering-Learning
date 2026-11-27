@@ -1,17 +1,7 @@
-# 08 — Delivery and Operations
+# Part 6 — Release the Product
 
-**Your status:** Needs learning. You have heard of deployment but do not yet know what it means.
+Start with [What Is Deployment?](01-what-is-deployment.md).
 
-## Learn in this order
+Later, we will learn what happens after release and how teams keep an app running.
 
-1. [What is deployment?](01-what-is-deployment.md)
-2. Local, test/staging, and production environments
-3. Build and package an application
-4. CI/CD basics
-5. Configuration and environment variables
-6. Docker fundamentals
-7. Logs, monitoring, and rollback
-
-**Important distinction:** Pushing code to GitHub uploads source code to a repository. Deployment releases a working application to an environment where users or other systems can use it.
-
-**Completion goal:** Explain the journey from local development to a live application.
+**Goal:** Understand how software moves from a developer's computer to real users.
