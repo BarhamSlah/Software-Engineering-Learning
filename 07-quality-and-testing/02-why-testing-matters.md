@@ -1,41 +1,42 @@
-# Why Software Testing Matters
+# Why Do We Test Software?
 
-- **Phase:** 7 — Quality and Testing
-- **Status:** Not assessed
+**Time:** 5 minutes · **Level:** Beginner
 
-## Simple definition
+## 1. The idea
 
-**Software testing** means checking software to find defects and see whether it behaves as expected.
+**Testing** means checking that software behaves as expected.
 
-## Why is testing needed?
+## 2. Our project example
 
-Code may compile and still contain incorrect logic. One successful example does not prove every situation works.
+We want students to send reports.
 
-## Deposit example
-
-Assume the requirement says a deposit amount must be greater than zero.
+Let's check some situations:
 
 | Situation | Expected result |
 |---|---|
-| Deposit $50 into $100 | Balance becomes $150 |
-| Deposit $0 | Reject the request |
-| Deposit -$20 | Reject the request |
-| Deposit into a blocked account | Follow the stated account rule |
+| Student sends a report with a title | Report is saved |
+| Student sends an empty report | App asks for the missing information |
+| Student opens their report | They can see its status |
+| Student tries to see another student's private report | Access is denied |
 
-A **test case** describes a situation, the input or action, and the expected result.
+Each situation checks something important.
 
-## Different test levels
+## 3. What is a test case?
 
-| Type | Simple meaning |
-|---|---|
-| Unit test | Checks one small part, such as a method |
-| Integration test | Checks that parts work together, such as a service and database |
-| End-to-end test | Checks a complete user flow through the system |
+A **test case** is a simple check with:
+- A situation or action.
+- An expected result.
 
-## Testing does not guarantee perfection
+## 4. Why test?
 
-Testing reduces risk and finds defects, but no realistic test suite can prove that a complex application has zero bugs in every possible situation.
+Because software can look correct but still have mistakes. Testing helps find problems before users depend on the product.
 
-## Key idea
+## 5. Remember this
 
-Testing compares actual behavior with expected behavior and helps teams find problems before users suffer from them.
+**Testing checks whether the real result matches the expected result.**
+
+## 6. Quick check
+
+If we expect an empty report to be rejected, what should happen when we try to send one?
+
+**Answer:** The app should reject it or ask for the missing information.
