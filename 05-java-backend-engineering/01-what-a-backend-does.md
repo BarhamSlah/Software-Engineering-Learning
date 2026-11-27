@@ -1,44 +1,49 @@
 # What Does a Backend Do?
 
-- **Phase:** 5 — Java Backend Engineering
-- **Status:** Not assessed
+**Time:** 5 minutes · **Level:** Beginner
 
-## Simple definition
+## 1. The idea
 
-The **backend** is the part of an application that runs behind the user interface. It handles rules, requests, data access, and communication with other systems.
+The **frontend** is what users see and touch.
 
-## Frontend and backend
+The **backend** works behind the scenes. It receives requests, checks rules, and works with saved data.
+
+## 2. Our project example
+
+A student presses “Send Report”.
+
+```
+Student
+  ↓
+App screen (frontend)
+  ↓
+Backend receives the report
+  ↓
+Backend checks the information
+  ↓
+Database saves the report
+  ↓
+Student sees a result
+```
+
+## 3. Simple comparison
 
 | Frontend | Backend |
 |---|---|
-| What the user sees and interacts with | The logic and services behind the interface |
-| Forms, buttons, screens | Business rules, APIs, data access |
-| Sends requests | Receives and processes requests |
+| Buttons and screens | Rules and processing |
+| What the user sees | What happens behind the scenes |
+| Sends a request | Handles the request |
 
-## Banking example
+## 4. Where does Java fit?
 
-A user presses “Deposit” in an application.
+Java can be used to build the backend. A framework such as Spring Boot can help, but first understand the job the backend must do.
 
-```text
-User interface
-     ↓ sends request
-Backend API
-     ↓ checks request
-Business logic
-     ↓ updates data
-Database
-     ↓ result
-Backend sends response
-     ↓
-User sees success or error
-```
+## 5. Remember this
 
-The backend should not trust every request automatically. It must validate input and check permission and business rules.
+**Frontend is the visible part. Backend handles the work behind it.**
 
-## Java connection
+## 6. Quick check
 
-A Java backend may use classes and services to organize responsibilities. A framework such as Spring Boot can help build web APIs, but the framework does not replace understanding the rules.
+When a student sends a report, which part checks and saves it?
 
-## Key idea
-
-The frontend is the interaction surface; the backend processes requests and applies the system's rules.
+**Answer:** The backend works with the database to do that.
