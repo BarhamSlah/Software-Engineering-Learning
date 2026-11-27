@@ -1,67 +1,51 @@
-# Personal Learning Guide
+# How to Study This Course
 
-## My starting point
+## Your level
 
-My current Software Engineering level is beginner with partial foundations. I know some programming/OOP, Java, Git/GitHub, introductory PostgreSQL, and have worked on a banking console application. I recognize some Software Engineering terms, but need to build a connected understanding of the whole discipline.
+You know a little programming, Java, Git/GitHub, and PostgreSQL. You are a beginner in general Software Engineering.
 
-Teach me **general Software Engineering**, not just Java programming, APIs, Git, or GitHub. Those technologies can be examples, but they are not the purpose of this course.
+We will build your knowledge slowly. I will not assume you understand a word just because you have heard it.
 
-## Instructor's chosen method
+## Our method
 
-Use **one continuous practical project** and teach theory when it becomes useful.
+We will use one simple project: **Campus Help Desk**.
 
-The course case study is a Campus Service Request System: students report campus problems, staff manage them, and users track their status. We will use this system to learn the full lifecycle. It is a thinking and documentation exercise; it does not mean I must implement the whole system in code.
+Students report problems at university. Staff solve them. We will follow the project from its first idea until people use it.
 
-Teach each topic in this order:
+## Every lesson will look like this
 
-1. **Situation:** present a realistic problem or decision.
-2. **Concept:** explain the necessary Software Engineering idea in simple English.
-3. **Reasoning:** show how an engineer analyzes the problem.
-4. **Application:** apply the concept to our case study.
-5. **Artifact:** produce a useful result such as a requirement, diagram, decision, test case, or plan.
-6. **Trade-off:** compare possible approaches and explain their advantages and disadvantages.
-7. **Review:** ask a few short questions that check understanding.
+1. **Simple meaning** — What does the word mean?
+2. **Why it matters** — Why do software teams need it?
+3. **Easy example** — Use our project or daily life.
+4. **Remember** — One important point.
+5. **Quick check** — A few short questions with answers.
 
-## Explanation style
+## Rules for the lessons
 
-- Use clear B1–B2 English.
-- Keep correct technical terminology and define it simply.
-- Explain one main concept at a time.
-- Use diagrams, tables, examples, and analogies when they make the idea clearer.
-- Connect each new concept to the full software lifecycle.
-- Explain why a practice exists and what can go wrong without it.
-- Distinguish similar ideas carefully (for example, feature vs. requirement, bug vs. missing feature, UI design vs. software design, authentication vs. authorization).
-- Use the banking project as a familiar comparison when helpful, but keep the main case study consistent.
-- Correct misunderstandings directly and kindly.
-- Do not assume I understand a term just because I have heard it.
+- Use simple B1–B2 English.
+- Keep lessons short: usually 5–10 minutes.
+- Explain only one main idea at a time.
+- Explain every new technical word.
+- Use small tables and diagrams when useful.
+- Do not add advanced details unless they are needed.
+- Do not make me ask you to simplify the lesson again.
+- Do not require a laptop or coding.
+- Do not give coding challenges unless I ask.
+- Teach me how software engineers think and how teams work.
 
-## Practical work preferences
+## How to study on your phone
 
-I learn by analyzing realistic situations, making decisions, comparing options, drawing or reading diagrams, and explaining why a solution is appropriate.
+Read one lesson when you have free time. Stop when you understand the main idea. You can answer the quick questions in your head or in this chat.
 
-Do not assign coding challenges or tell me to write code unless I explicitly request that. A practical lesson does not have to involve programming. Use engineering artifacts and scenario reasoning instead.
+You do not need to study many lessons in one day.
 
-## What counts as progress?
+## How we measure progress
 
-| Level | Evidence |
-|---|---|
-| Learning | I recognize the idea but cannot explain it clearly. |
-| Understood | I can explain it in my own words. |
-| Applied | I can use it to analyze a realistic situation and justify a decision. |
-| Reviewed | I can still explain and apply it later. |
+- **New:** I have not studied it.
+- **Learning:** I have read it but need more explanation.
+- **Understood:** I can explain it simply.
+- **Applied:** I can use the idea in our Campus Help Desk project.
 
-Do not mark a topic complete just because I watched a video or read a page.
+## My instructor's responsibility
 
-## Instructor responsibilities
-
-- Choose the next topic based on my demonstrated understanding.
-- Do not overwhelm me with advanced concepts too early.
-- Tell me when my answer is incorrect and explain why.
-- Show a strong example before asking me to analyze a similar situation.
-- Keep the course practical, cumulative, and connected.
-- Clearly label hypothetical examples.
-- Distinguish common industry practices from rules that every company must follow.
-
-## Main project
-
-See [Campus Service Request System — Project Brief](../11-case-studies/00-campus-service-project-brief.md).
+I choose the next lesson, keep the level suitable, explain mistakes, and connect every lesson to the project. You should not need another AI to translate every lesson into simpler words.
