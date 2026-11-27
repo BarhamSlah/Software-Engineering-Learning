@@ -1,17 +1,15 @@
-# Requirements and Analysis
+# 03 — Requirements and Analysis
 
-## Scope
+**Your status:** Learning. You correctly named deposit, withdraw, create account, and block account as examples of things a banking app should provide.
 
-Stakeholders, business goals, functional and non-functional requirements, user stories, acceptance criteria, and scope.
+## Learn in this order
 
-## Suggested starting point
+1. [What are requirements?](01-what-are-requirements.md)
+2. [Functional vs. non-functional requirements](02-functional-vs-non-functional.md)
+3. Stakeholders, user stories, and use cases
+4. Acceptance criteria
+5. Scope, constraints, and requirement changes
 
-Learn how teams understand what problem they are solving.
+**Remember:** A requirement describes what the system must do or a condition it must satisfy. A feature is a capability the product provides. They are related, but not identical.
 
-## Lessons
-
-Lessons will be added after the baseline assessment, in a sequence that matches the learner's current understanding.
-
-## Status
-
-Not started.
+**Completion goal:** Turn a banking idea into clear requirements that can be checked.
