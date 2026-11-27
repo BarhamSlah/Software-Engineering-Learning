@@ -1,17 +1,18 @@
-# Databases and Data
+# 06 — Databases and Data
 
-## Scope
+**Your status:** Learning. You know a database stores user data, but persistence and safe transfers need deeper understanding.
 
-Relational modeling, SQL, PostgreSQL, constraints, joins, normalization, transactions, indexes, and Java database access.
+## Learn in this order
 
-## Suggested starting point
+1. [Database and persistence](01-database-and-persistence.md)
+2. Tables, rows, columns, primary keys, and foreign keys
+3. SQL and PostgreSQL
+4. Relationships and data modeling
+5. Constraints and transactions
+6. [Why bank transfers need transactions](02-transactions-and-bank-transfers.md)
+7. Indexes and performance
+8. Java database connections
 
-Understand how backend systems store and protect data.
+**Key idea:** A Java list can hold data while a program runs. A database stores data so it remains available after the program stops.
 
-## Lessons
-
-Lessons will be added after the baseline assessment, in a sequence that matches the learner's current understanding.
-
-## Status
-
-Not started.
+**Completion goal:** Explain how a backend stores account data and transfers money safely.
