@@ -1,16 +1,9 @@
-# 05 — Java Backend Engineering
+# Part 3 — Understand How an App Works
 
-**Your status:** Not fully assessed in the initial Software Engineering questions. You already have Java/OOP experience, so this section connects that knowledge to complete backend applications.
+Start with [What Does a Backend Do?](01-what-a-backend-does.md).
 
-## Learn in this order
+Later, we will follow a request through the app and learn what an API does.
 
-1. [What does a backend do?](01-what-a-backend-does.md)
-2. Request flow: controller → service → repository → database
-3. Java application responsibilities and layers
-4. Maven/Gradle and dependencies
-5. Spring and Spring Boot
-6. Dependency injection
-7. Validation, errors, and logging
-8. Authentication and authorization
+Java is an example here. This is not a Java programming course.
 
-**Completion goal:** Explain what happens when a user sends a request to a Java backend.
+**Goal:** Understand what happens behind the screen when a user uses an app.
