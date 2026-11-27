@@ -1,47 +1,39 @@
 # Pull Requests and Code Review
 
-- **Phase:** 2 — Professional Workflow
-- **Status:** Learning
+**Time:** 6 minutes · **Level:** Beginner
 
-## What is a Pull Request?
+## 1. What is a Pull Request?
 
-A **Pull Request (PR)** is a request to review a set of changes and consider merging them into another branch, often `main`.
+A **Pull Request (PR)** is a request for the team to check a change before adding it to the main project.
 
-## What is code review?
+## 2. What is code review?
 
-**Code review** is when another developer examines a proposed change. They may check:
-- Does it meet the requirement?
-- Is the logic correct?
-- Is it understandable?
-- Are there security or performance concerns?
-- Are useful tests included?
+**Code review** means another developer reads a proposed change and gives feedback.
 
-## Common workflow
+They may ask:
+- Does it solve the right problem?
+- Is anything incorrect?
+- Is it easy to understand?
+- Are important cases checked?
 
-```text
-Developer creates branch
-        ↓
-Makes a change and commits
-        ↓
-Pushes branch to GitHub
-        ↓
-Opens Pull Request
-        ↓
-Reviewer reads the change
-        ↓
- ┌───────────────┬────────────────┐
- ↓               ↓                ↓
-Approve       Request changes   Discuss
- ↓               ↓                ↓
-Merge         Developer updates  Agree on solution
-```
+## 3. Simple example
 
-A reviewer does not simply ignore code when they find a problem. They explain the concern and may request a correction. The developer can update the PR with new commits.
+A developer adds a way for students to report a broken projector.
 
-## Why review?
+Another developer reviews the change. They notice that the report can be sent without a description.
 
-Review can catch mistakes, improve clarity, share knowledge, and check whether the change fits the project. It does not replace automated or manual testing.
+They ask for a correction. The developer fixes it and updates the Pull Request.
 
-## Key idea
+## 4. Does review mean rejecting the person?
 
-A PR is the review-and-merge conversation around a proposed change. Code review is the examination and feedback within that process.
+No. Review is about improving the work, not blaming the developer.
+
+## 5. Remember this
+
+**A Pull Request asks for review. Code review checks the change and helps improve it.**
+
+## 6. Quick check
+
+Why might a developer ask for changes instead of approving a Pull Request?
+
+**Answer:** Because something needs to be corrected or improved before merging.
