@@ -1,17 +1,17 @@
-# Security and Reliability
+# 09 — Security and Reliability
 
-## Scope
+**Your status:** Not assessed yet. This phase comes after the basic lifecycle, backend, and database concepts.
 
-Web risks, input validation, authentication, authorization, secrets, reliability, resilience, timeouts, retries, and recovery.
+## Learn in this order
 
-## Suggested starting point
+1. Why software security matters
+2. Authentication vs. authorization
+3. Input validation and trust boundaries
+4. Password storage and secrets
+5. Common web application risks
+6. Reliability and safe failure
+7. Timeouts, retries, backups, and recovery
 
-Learn how to reduce risks and handle failures safely.
+**Banking example:** A user must not be able to view another customer's account or transfer money without permission.
 
-## Lessons
-
-Lessons will be added after the baseline assessment, in a sequence that matches the learner's current understanding.
-
-## Status
-
-Not started.
+**Completion goal:** Recognize basic security risks and explain how a system should handle failures safely.
