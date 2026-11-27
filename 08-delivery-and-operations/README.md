@@ -1,17 +1,17 @@
-# Delivery and Operations
+# 08 — Delivery and Operations
 
-## Scope
+**Your status:** Needs learning. You have heard of deployment but do not yet know what it means.
 
-Builds, CI/CD, packaging, environments, Docker, deployment, logs, metrics, monitoring, and releases.
+## Learn in this order
 
-## Suggested starting point
+1. [What is deployment?](01-what-is-deployment.md)
+2. Local, test/staging, and production environments
+3. Build and package an application
+4. CI/CD basics
+5. Configuration and environment variables
+6. Docker fundamentals
+7. Logs, monitoring, and rollback
 
-Understand how software gets from a developer's machine to users.
+**Important distinction:** Pushing code to GitHub uploads source code to a repository. Deployment releases a working application to an environment where users or other systems can use it.
 
-## Lessons
-
-Lessons will be added after the baseline assessment, in a sequence that matches the learner's current understanding.
-
-## Status
-
-Not started.
+**Completion goal:** Explain the journey from local development to a live application.
