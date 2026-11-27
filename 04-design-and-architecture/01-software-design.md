@@ -1,43 +1,44 @@
-# Software Design Is More Than Appearance
+# What Is Software Design?
 
-- **Phase:** 4 — Design and Architecture
-- **Status:** Learning
+**Time:** 6 minutes · **Level:** Beginner
 
-## Simple definition
+## 1. The idea
 
-**Software design** is planning how a software solution and its parts should work together.
+**Software design** means planning how the software will work and how its parts will fit together.
 
-You were thinking of colors and what users see. That is **visual design** or part of **UI design**. It is real design, but not the whole subject.
+It is not only choosing colors or drawing screens.
 
-## Different kinds of design
+## 2. Our project example
 
-| Type | What it plans | Banking example |
-|---|---|---|
-| UI/visual design | Screens, colors, buttons, layout | Where the Deposit button appears |
-| Data design | How information is organized | Account table, balance, transaction records |
-| Component design | Parts and their responsibilities | Account service handles account rules |
-| Process/workflow design | Steps in an operation | How a transfer is validated and completed |
-| Architecture | High-level structure of the system | Frontend, backend API, database |
+Before building the Campus Help Desk, we need to decide:
+- What information does a report contain?
+- Who can see a report?
+- Who can change its status?
+- Where are reports saved?
+- How does a student send a report to the system?
 
-## Example: design a transfer
+These are design questions.
 
-Before writing code, the team should think about:
-1. How does the user request a transfer?
-2. How do we identify the sender and receiver?
-3. What rules must be checked?
-4. What happens if the receiver does not exist?
-5. How do we prevent money being removed without being received?
-6. What information must be stored?
+## 3. Different parts of design
 
-These are design questions. They are not about button colors.
+| Type | Simple meaning |
+|---|---|
+| Screen design | What users see |
+| Data design | What information we save |
+| Process design | What steps happen |
+| Software structure | How the parts work together |
 
-## Design vs. implementation
+## 4. Design vs. coding
 
-- **Design:** Plan how the solution should work.
-- **Implementation:** Build that solution.
+- **Design:** plan the solution.
+- **Coding:** build the solution.
 
-In real projects, design and implementation can influence each other. Developers may adjust the design when they learn more.
+## 5. Remember this
 
-## Key idea
+**Design is planning how the software works, not just how it looks.**
 
-Design is the plan for how the software works and is organized. The user interface is only one part of it.
+## 6. Quick check
+
+If we decide who can change a report's status, are we thinking about software design?
+
+**Answer:** Yes.
