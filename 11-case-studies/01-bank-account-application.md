@@ -1,81 +1,38 @@
-# Case Study: Bank Account Application
+# A Familiar Example: Banking Application
 
-- **Type:** Hypothetical learning example
-- **Status:** Learning
-- **Purpose:** Connect the first Software Engineering concepts to a familiar project.
+We will sometimes use a banking app because it is familiar. Our main course project is still Campus Help Desk.
 
-## 1. Problem
+## What does a banking app do?
 
-Customers need a safe way to manage bank accounts and transactions.
+Possible features:
+- Create an account.
+- Show account information.
+- Deposit money.
+- Withdraw money.
+- Transfer money.
+- Block an account.
 
-## 2. Possible features
+## What must the team think about?
 
-- Create an account
-- View account information
-- Deposit money
-- Withdraw money
-- Transfer money
-- Block an account
+Before building it, the team asks:
+- What should each feature do?
+- What happens if the balance is too low?
+- How is customer information saved?
+- How do we protect accounts?
+- How do we test a transfer?
+- How do customers use the finished app?
 
-A feature is a capability. Each feature needs detailed requirements and rules.
+## One example
 
-## 3. Example requirements
+A customer transfers $30 to another account.
 
-**Functional**
-- A customer can create an account.
-- A customer can deposit a positive amount.
-- A blocked account cannot withdraw money.
-- A transfer requires a valid sender and receiver.
+The team must make sure:
+1. Both accounts exist.
+2. The sender has enough money.
+3. The transfer is allowed.
+4. Money is removed from one account and added to the other safely.
+5. The result is saved.
 
-**Non-functional**
-- Customer data must be protected.
-- Operations should complete within an agreed response time.
-- Account records must remain saved after the application restarts.
+## Why use this example?
 
-## 4. Design questions
-
-- What information belongs to an account?
-- Which part checks business rules?
-- How does the user request a transfer?
-- Where is account information stored?
-- How do we prevent a half-completed transfer?
-
-Design includes interface, data, components, workflows, and architecture—not only colors.
-
-## 5. Implementation
-
-Developers build the planned behavior, perhaps using Java for backend logic and PostgreSQL for persistent data.
-
-## 6. Testing
-
-Examples:
-- Deposit $50 into $100 → expected $150.
-- Deposit a negative amount → reject.
-- Withdraw more than the balance → reject if that is the rule.
-- Transfer to a missing receiver → fail safely.
-
-## 7. Deployment and maintenance
-
-After testing, the team deploys the application to an environment for users. Later, it fixes defects, monitors the service, and adds improvements.
-
-## 8. Full lifecycle
-
-```text
-Customer need
-    ↓
-Requirements
-    ↓
-Design
-    ↓
-Implementation
-    ↓
-Testing
-    ↓
-Deployment
-    ↓
-Maintenance
-```
-
-## Key idea
-
-A banking application is not just a collection of Java methods. It is a product with user needs, rules, data, design, testing, release, and ongoing support.
+It shows that software engineering is not only coding. It includes understanding rules, designing a solution, protecting data, testing, and supporting the product.
