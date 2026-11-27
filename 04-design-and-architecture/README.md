@@ -1,17 +1,7 @@
-# 04 — Design and Architecture
+# Part 3 — Plan the Solution
 
-**Your status:** Learning. You currently connect design mainly with colors and what users see. That is UI/visual design, one part of a much wider subject.
+Start with [What Is Software Design?](01-software-design.md).
 
-## Learn in this order
+Later, we will learn how an app is divided into parts and how those parts work together.
 
-1. [Software design is more than appearance](01-software-design.md)
-2. Components, responsibilities, and separation of concerns
-3. Architecture vs. detailed design
-4. Layered architecture for backend applications
-5. APIs and basic HTTP
-6. Modularity, cohesion, and coupling
-7. SOLID and design patterns (later)
-
-**Banking example:** Design includes deciding how accounts, deposits, withdrawals, and transfers work—not only choosing button colors.
-
-**Completion goal:** Explain the structure and responsibilities of a simple application before discussing code details.
+**Goal:** Understand that design is planning how software works, not only choosing colors.
