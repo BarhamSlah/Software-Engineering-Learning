@@ -1,48 +1,44 @@
-# Features, Bugs, and Expected Behavior
+# Features and Bugs
 
-- **Phase:** 7 — Quality and Testing
-- **Status:** Learning
+**Time:** 5 minutes · **Level:** Beginner
 
-## Feature
+## 1. What is a feature?
 
-A **feature** is a capability or function that a product is intended to provide.
+A **feature** is something the product allows a user to do.
 
-Banking examples:
-- Create an account
-- Deposit money
-- Withdraw money
-- Transfer money
-- Block an account
+Our project features:
+- Send a report.
+- View a report.
+- Update report status.
+- Assign a report to staff.
 
-A feature is something the product offers. It should be described by clear requirements and rules.
+## 2. What is a bug?
 
-## Bug / defect
+A **bug** is when software does not behave as expected.
 
-A **bug** (also called a defect) is a problem that causes software to behave incorrectly or unexpectedly compared with its requirements or expected behavior.
+Your calculator example:
 
-Your calculator example is correct:
-
-| | Result |
+| | Answer |
 |---|---:|
-| Expected for 5 + 5 | 10 |
+| Expected: 5 + 5 | 10 |
 | Actual result | 11 |
-| Conclusion | Bug |
+| Problem | Bug |
 
-Banking example:
-- Expected: Deposit $50 into an account with $100.
-- Actual: New balance becomes $140.
-- Conclusion: The deposit behavior is incorrect.
+Our project example:
 
-## Feature vs. requirement vs. bug
+- Expected: A student sends a report.
+- Actual: The app says it was sent, but it does not save it.
+- Problem: Bug.
 
-| Term | Simple meaning |
-|---|---|
-| Requirement | What the system must do or satisfy |
-| Feature | A capability the product provides |
-| Bug/defect | Something is not behaving as expected |
+## 3. Remember the difference
 
-A feature can exist but still contain bugs.
+- **Feature:** something the product should do.
+- **Bug:** something is not working correctly.
 
-## Key idea
+A feature can exist and still have a bug.
 
-A feature is a product capability. A bug is a defect in how the software behaves.
+## 4. Quick check
+
+If students cannot send reports at all, is that a missing feature or a bug?
+
+**Answer:** It depends on the requirements. If sending reports was never planned, it is a missing feature. If it was required but does not work, it is a bug.
