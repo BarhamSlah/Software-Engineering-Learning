@@ -1,17 +1,16 @@
-# Teamwork and Career
+# 10 — Teamwork and Career
 
-## Scope
+**Your status:** Learning. You understand that another developer can review code, but do not yet know all the people and responsibilities in a software team.
 
-Cross-functional teamwork, technical communication, documentation, estimation, feedback, interviews, and project presentation.
+## Learn in this order
 
-## Suggested starting point
+1. [People in a software team](01-people-in-a-software-team.md)
+2. How a feature moves through a team
+3. Technical communication and documentation
+4. Giving and receiving review feedback
+5. Estimation and prioritization
+6. Explaining projects and interview preparation
 
-Prepare to contribute effectively to a professional engineering team.
+**Remember:** Not every company has the same job titles or team structure. In a small team, one person may perform several responsibilities.
 
-## Lessons
-
-Lessons will be added after the baseline assessment, in a sequence that matches the learner's current understanding.
-
-## Status
-
-Not started.
+**Completion goal:** Explain how different people help deliver one software feature.
