@@ -1,17 +1,15 @@
-# Software Engineering Foundations
+# 01 — Software Engineering Foundations
 
-## Scope
+**Your status:** Learning. You know programming is more than coding and that engineers solve problems. The full discipline and lifecycle need clearer understanding.
 
-The discipline, software quality, SDLC, process models, technical debt, and engineering trade-offs.
+## Learn in this order
 
-## Suggested starting point
+1. [Programming vs. Software Engineering](01-programming-vs-software-engineering.md)
+2. [The Software Development Life Cycle (SDLC)](02-sdlc.md)
+3. Software quality and quality attributes
+4. Development approaches: plan-driven, iterative, incremental, Agile
+5. Technical debt and engineering trade-offs
 
-Start with the difference between programming and software engineering.
+**Start with lesson 1.** Remember: programming is part of building software; Software Engineering covers the wider work of creating and supporting a useful, reliable product.
 
-## Lessons
-
-Lessons will be added after the baseline assessment, in a sequence that matches the learner's current understanding.
-
-## Status
-
-Not started.
+**Completion goal:** Explain why software engineering includes problem understanding, requirements, design, implementation, testing, release, and maintenance.
