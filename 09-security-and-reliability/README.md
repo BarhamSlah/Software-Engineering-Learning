@@ -1,17 +1,11 @@
-# 09 — Security and Reliability
+# Part 6 — Keep the Product Safe
 
-**Your status:** Not assessed yet. This phase comes after the basic lifecycle, backend, and database concepts.
+We will study this part after understanding the basics.
 
-## Learn in this order
+Topics:
+- Who is allowed to use each part of the app?
+- How do we protect private information?
+- What happens when something fails?
+- How do we keep the app available?
 
-1. Why software security matters
-2. Authentication vs. authorization
-3. Input validation and trust boundaries
-4. Password storage and secrets
-5. Common web application risks
-6. Reliability and safe failure
-7. Timeouts, retries, backups, and recovery
-
-**Banking example:** A user must not be able to view another customer's account or transfer money without permission.
-
-**Completion goal:** Recognize basic security risks and explain how a system should handle failures safely.
+**Goal:** Learn simple ways to protect users and keep software working.
