@@ -1,43 +1,42 @@
 # Database and Persistence
 
-- **Phase:** 6 — Databases and Data
-- **Status:** Learning
+**Time:** 5 minutes · **Level:** Beginner
 
-## What is a database?
+## 1. What is a database?
 
-A **database** is an organized place to store and retrieve data.
+A **database** is an organized place to save information.
 
-A relational database such as PostgreSQL stores data in tables made of rows and columns.
+Our Campus Help Desk may save:
+- Student information
+- Reports
+- Report descriptions
+- Report status
+- Staff assignments
 
-## What is persistence?
+## 2. What is persistence?
 
-**Persistence** means data remains saved after the application stops or restarts.
+**Persistence** means saved information is still there after the application closes.
 
-Example:
-- Your Java program puts an account in an ArrayList.
-- While the program runs, it can read that account.
-- If the program closes, the in-memory list is normally lost.
-- If the account is saved in a database, it can be loaded again later.
+## 3. Simple example
 
-## Comparison
+Imagine you write a report in a notebook.
 
-| In-memory data | Persistent database data |
-|---|---|
-| Stored while the program is running | Stored beyond one program run |
-| Often disappears when the process ends | Remains until changed or deleted |
-| Useful for temporary data and simple exercises | Useful for real application records |
+You close the notebook. The report is still there.
 
-## Banking example
+Now imagine writing it only on a whiteboard and erasing the board. The information is gone.
 
-A bank account may need:
-- Account ID
-- Customer ID
-- Account status
-- Current balance
-- Transaction history
+A database is like the notebook: it keeps information for later.
 
-The application reads and updates these records through its backend logic.
+## 4. Java connection
 
-## Important idea
+An ArrayList in a simple Java program normally keeps data in memory while the program runs. A database can save data so the application can use it again later.
 
-A database is not just a place for user names. It stores organized information the application needs to use reliably.
+## 5. Remember this
+
+**A database saves information so the application can use it later.**
+
+## 6. Quick check
+
+If the application closes and the report is still saved, is the data persistent?
+
+**Answer:** Yes.
