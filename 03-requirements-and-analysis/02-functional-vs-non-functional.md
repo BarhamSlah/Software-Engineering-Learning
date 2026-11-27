@@ -1,47 +1,43 @@
 # Functional vs. Non-Functional Requirements
 
-- **Phase:** 3 — Requirements and Analysis
-- **Status:** Learning
+**Time:** 6 minutes · **Level:** Beginner
 
-## Functional requirement
+## 1. Functional requirement
 
-A **functional requirement** describes a behavior or service the system must provide.
-
-Examples:
-- The user can create an account.
-- The user can deposit money.
-- The user can transfer money.
-- The system blocks withdrawals from a blocked account.
-
-Ask: **What must the system do?**
-
-## Non-functional requirement
-
-A **non-functional requirement** describes a quality, limit, or condition the system must meet.
+This says **what the system must do**.
 
 Examples:
-- Account information must be protected from unauthorized users.
-- The account page should respond within an agreed time.
-- The service should remain available according to an agreed target.
-- The code should be structured so it can be maintained.
+- Students can send a report.
+- Staff can update a report.
+- Students can see report status.
 
-Ask: **How well must it work, or under what conditions?**
+## 2. Non-functional requirement
 
-## Comparison
+This says **how well the system should work** or what condition it must meet.
+
+Examples:
+- Only the right people can see private reports.
+- The app should respond quickly.
+- The app should be easy to use.
+
+## 3. Easy way to remember
 
 | Functional | Non-functional |
 |---|---|
-| What behavior exists? | What quality or constraint applies? |
-| Transfer money | Protect transfer data |
-| Show account balance | Show it within an agreed response time |
-| Block an account | Only authorized staff can block it |
+| What does it do? | How well must it work? |
+| Send a report | Protect report information |
+| View report status | Show the status quickly |
 
-A security rule can sometimes be written as a functional rule or a quality/constraint requirement depending on how it is stated. The important thing is to make it clear and testable.
+## 4. Remember this
 
-## Common mistake
+**Functional = what. Non-functional = how well or under what conditions.**
 
-“Design the app with blue buttons” is a visual/UI requirement, not the same as a business function such as “the customer can deposit money.”
+## 5. Quick check
 
-## Key idea
+“The student can send a report.” Which type?
 
-Functional = what it does. Non-functional = how well or under what conditions it must work.
+**Answer:** Functional.
+
+“The report must only be visible to the student and authorized staff.” Which type?
+
+**Answer:** Non-functional / security requirement.
