@@ -1,61 +1,30 @@
-# [Topic Name]
+# [Lesson title]
 
-- **Phase:** [Roadmap phase]
-- **Status:** Not started
-- **Last reviewed:** [Date]
+**Time:** 5–10 minutes  
+**Level:** Beginner
 
-## 1. Simple definition
+## 1. The idea
 
-[Explain the concept in clear English.]
+Explain in a few simple sentences. Define every new technical word.
 
-## 2. Why does it exist?
+## 2. Why should I care?
 
-[What problem does it solve?]
+Explain the real problem this idea solves.
 
-## 3. How does it work?
+## 3. Simple example
 
-[Explain the main idea step by step.]
+Use our Campus Help Desk project or a familiar everyday example.
 
-## 4. Practical example
+## 4. Remember this
 
-[Use a realistic example. Label hypothetical scenarios.]
+Give one important sentence.
 
-## 5. Where is it used?
+## 5. Quick check
 
-[Connect the concept to a real software project or engineering workflow.]
+Ask no more than three short questions. Give answers after the questions in a separate section.
 
-## 6. Compare it with related concepts
+## 6. Our project
 
-| Concept A | Concept B | Main difference |
-|---|---|---|
-| | | |
+Explain how this idea helps us build the Campus Help Desk step by step.
 
-## 7. Benefits and limitations
-
-**Benefits**
-- 
-
-**Limitations / trade-offs**
-- 
-
-## 8. Common mistakes
-
-- 
-
-## 9. Important takeaway
-
-[One or two sentences.]
-
-## 10. Knowledge check
-
-1. 
-2. 
-3. 
-
-## 11. My understanding
-
-[Write what I can explain independently, what is still unclear, and where I can apply the concept.]
-
-## References
-
-- [Official or reliable source]
+**Rule:** One main idea per lesson. Short paragraphs. No unnecessary advanced terms. No laptop or coding required.
