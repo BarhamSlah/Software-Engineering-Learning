@@ -1,17 +1,17 @@
-# Design and Architecture
+# 04 — Design and Architecture
 
-## Scope
+**Your status:** Learning. You currently connect design mainly with colors and what users see. That is UI/visual design, one part of a much wider subject.
 
-Modularity, coupling, cohesion, SOLID, layered architecture, API design, patterns, and architectural trade-offs.
+## Learn in this order
 
-## Suggested starting point
+1. [Software design is more than appearance](01-software-design.md)
+2. Components, responsibilities, and separation of concerns
+3. Architecture vs. detailed design
+4. Layered architecture for backend applications
+5. APIs and basic HTTP
+6. Modularity, cohesion, and coupling
+7. SOLID and design patterns (later)
 
-Learn how to structure software so it can change safely.
+**Banking example:** Design includes deciding how accounts, deposits, withdrawals, and transfers work—not only choosing button colors.
 
-## Lessons
-
-Lessons will be added after the baseline assessment, in a sequence that matches the learner's current understanding.
-
-## Status
-
-Not started.
+**Completion goal:** Explain the structure and responsibilities of a simple application before discussing code details.
