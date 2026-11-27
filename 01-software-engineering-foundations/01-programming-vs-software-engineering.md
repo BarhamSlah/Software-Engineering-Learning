@@ -1,86 +1,49 @@
 # Programming vs. Software Engineering
 
-- **Phase:** 1 — Foundations
-- **Status:** Learning
-- **Level:** Start here
+**Time:** 5 minutes · **Level:** Beginner
 
-## 1. Simple definition
+## 1. The idea
 
-**Programming** is solving a problem and expressing the solution in a language a computer can run.
+**Programming** means giving instructions to a computer to solve a problem.
 
-**Software Engineering** is the wider work of building and supporting software in a planned, reliable way. It includes understanding the problem, requirements, design, programming, testing, release, and maintenance.
+**Software Engineering** is the bigger job of creating useful software and keeping it working well.
 
-Programming is part of Software Engineering. They are connected, but they are not the same thing.
+Programming is one part of Software Engineering.
 
-## 2. The three ideas you were trying to remember
+## 2. Think about a simple example
 
-A useful simple model is:
+Imagine a university needs an app where students can report problems, such as a broken classroom projector.
 
-| Activity | Meaning | Banking example |
-|---|---|---|
-| Problem-solving / logic | Understand the problem and decide the rules | A withdrawal must not make the balance negative |
-| Design | Plan the structure and how parts work together | Decide what an Account is responsible for and how a transfer works |
-| Coding | Express the solution in Java or another language | Implement the deposit method |
+A programmer may build the part that saves a report.
 
-These are not three strict, separate steps. Developers may move between them many times. Also, programming is not always described using exactly these three words. The important idea is that typing code is only one activity.
+A software engineer also thinks about:
+- What problem do students have?
+- What should the app allow them to do?
+- Who will read and solve the reports?
+- How will we check that it works?
+- How will the university use it after release?
 
-## 3. What does a software engineer do?
+## 3. Three important activities
 
-A software engineer helps turn a real need into a working software product. They may:
-- Understand the problem and users.
-- Discuss and clarify requirements.
-- Design a solution.
-- Build or integrate software.
-- Test and review changes.
-- Release and maintain the product.
-
-The work is not only writing code. It also involves decisions, communication, and responsibility for the result.
-
-## 4. Common areas of software development
-
-| Area | Simple explanation |
+| Activity | Simple meaning |
 |---|---|
-| Frontend developer | Builds the interface users see and interact with |
-| Backend developer | Builds server-side rules, APIs, and data handling |
-| Full-stack developer | Works across frontend and backend |
-| Mobile developer | Builds phone and tablet applications |
-| QA / test engineer | Checks software behavior and helps find defects |
-| DevOps / platform engineer | Helps teams build, release, and operate software |
-| AI/ML engineer | Builds systems that use machine-learning models |
+| Problem-solving | Understand the problem and decide what should happen |
+| Design | Plan how the solution will work |
+| Coding | Give the computer instructions to make it work |
 
-**Important correction:** API development is usually an area of backend or platform work, not necessarily a separate job title. AI engineer is a role/specialization. The names are examples, not a complete list.
+These activities can happen again and again. They are not always separate steps.
 
-## 5. A simple picture
+## 4. What does a software engineer do?
 
-```text
-Real problem
-    ↓
-Understand the need
-    ↓
-Plan and design a solution
-    ↓
-Program / build it
-    ↓
-Test it
-    ↓
-Release it
-    ↓
-Maintain and improve it
-```
+A software engineer helps a team understand a problem, plan a solution, build it, test it, release it, and improve it.
 
-## 6. Common misunderstanding
+## 5. Remember this
 
-- **Wrong:** A software engineer only writes code.
-- **Better:** Coding is one important part of a larger engineering process.
-- **Wrong:** Design only means colors and screens.
-- **Better:** Design can include screens, data, components, and the structure of the whole system.
+**Coding is part of Software Engineering, but Software Engineering is much bigger than coding.**
 
-## 7. Key idea
+## 6. Quick check
 
-**Programming helps create the solution. Software Engineering covers the wider process of creating, delivering, and maintaining useful software.**
+1. Is writing code the only job of a software engineer?
+2. Before building our university app, should we understand the students' problem?
 
-## 8. Check your understanding
-
-1. Is coding the whole of Software Engineering? Why?
-2. In a banking app, which activity decides that a blocked account cannot withdraw money?
-3. Is API a communication interface, a job title, or both depending on context? Explain simply.
+**Answers:** 1. No. 2. Yes.
