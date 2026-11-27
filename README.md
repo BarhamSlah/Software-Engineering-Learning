@@ -1,75 +1,56 @@
-# Software Engineering & Java Backend Learning
+# Software Engineering Learning
 
-A structured, practical learning journal for developing the knowledge and judgment of a professional **Software Engineer**, with a long-term focus on **Java Backend Development**.
+A practical, beginner-friendly learning course for understanding how real software is planned, designed, built, tested, released, and maintained—with a long-term focus on **Java backend development**.
 
-The goal is not simply to learn syntax or collect definitions. The goal is to understand how software is planned, designed, built, tested, delivered, maintained, and improved in real engineering teams.
+## Learner profile and teaching approach
 
-## Learning goals
+- Current Software Engineering level: **Beginner with partial foundations** (based on the initial assessment dated 27 November 2026).
+- Existing starting points: Java programming and OOP, Git/GitHub basics, introductory PostgreSQL, and a banking console application.
+- Target: become able to reason about software as an engineer, then apply that knowledge to Java backend systems.
+- Language: clear B1–B2 English. Keep correct technical terms and explain them simply.
+- Teaching style: concept first, then why it matters, steps, simple analogy, banking/backend example, diagram/table, common misunderstanding, and short knowledge check.
+- Do not assume a topic is understood because its name is familiar.
+- Do not assign coding challenges or tell me to write code unless I explicitly ask. Scenario reasoning and explanation questions are welcome.
 
-By working through this repository, I aim to become able to:
+## Start here
 
-- Explain core software engineering concepts in clear English.
-- Understand how software teams work and how engineering decisions are made.
-- Analyze requirements and turn them into clear, testable specifications.
-- Design maintainable applications and understand architecture trade-offs.
-- Build reliable backend applications with Java, Spring Boot, and PostgreSQL.
-- Test, debug, secure, deploy, and monitor software.
-- Use Git and GitHub as part of a professional development workflow.
-- Communicate technical ideas, explain decisions, and prepare for backend interviews.
+1. Read [your initial assessment](00-start-here/INITIAL-ASSESSMENT.md).
+2. Follow [the learning guide](00-start-here/LEARNING-GUIDE.md).
+3. Study [the roadmap](ROADMAP.md) in order.
+4. Record real understanding in [the progress tracker](00-start-here/PROGRESS.md).
 
-## My learning profile
+## Course map
 
-- **Primary career direction:** Java Backend Developer
-- **Current foundation:** Java programming, OOP, Git/GitHub, and introductory PostgreSQL
-- **English level:** B1–B2 target; explanations should use clear, simple English without losing technical accuracy
-- **Learning preference:** one concept at a time, practical examples, clear comparisons, and short knowledge checks
-- **Important rule:** assess my actual understanding. Do not assume that I am a complete beginner or that watching a course means I understand a topic.
-
-## How this repository is organized
-
-| Folder | Purpose |
+| Folder | What you will learn |
 |---|---|
-| `00-start-here/` | Learning method, assessment, and progress |
-| `01-software-engineering-foundations/` | What software engineering is and its core ideas |
-| `02-professional-workflow/` | Git, collaboration, code review, issues, and delivery workflow |
-| `03-requirements-and-analysis/` | Stakeholders, requirements, user stories, and acceptance criteria |
-| `04-design-and-architecture/` | Design principles, architecture, APIs, and trade-offs |
-| `05-java-backend-engineering/` | Java backend development and Spring ecosystem |
-| `06-databases-and-data/` | SQL, PostgreSQL, data modeling, and transactions |
-| `07-quality-and-testing/` | Testing, debugging, maintainability, and code quality |
-| `08-delivery-and-operations/` | Build tools, CI/CD, deployment, Docker, and observability |
-| `09-security-and-reliability/` | Application security, reliability, and failure handling |
-| `10-teamwork-and-career/` | Communication, teamwork, interviews, and professional growth |
-| `11-case-studies/` | Applying concepts to realistic engineering scenarios |
-| `templates/` | Reusable lesson and case-study templates |
+| [00 — Start here](00-start-here/) | Personal assessment, learning rules, progress |
+| [01 — Foundations](01-software-engineering-foundations/) | Programming vs. Software Engineering, SDLC, quality, process |
+| [02 — Professional workflow](02-professional-workflow/) | Git, branches, commits, pull requests, code review |
+| [03 — Requirements](03-requirements-and-analysis/) | Stakeholders, functional/non-functional requirements, acceptance criteria |
+| [04 — Design](04-design-and-architecture/) | UI vs. software design, components, architecture, APIs |
+| [05 — Java backend](05-java-backend-engineering/) | Backend responsibilities, Java services, Spring concepts |
+| [06 — Databases](06-databases-and-data/) | PostgreSQL, data modeling, persistence, transactions |
+| [07 — Quality](07-quality-and-testing/) | Bugs, testing, debugging, maintainability |
+| [08 — Delivery](08-delivery-and-operations/) | Build, environments, deployment, CI/CD, operations |
+| [09 — Security](09-security-and-reliability/) | Authentication, authorization, safe data, reliability |
+| [10 — Teamwork](10-teamwork-and-career/) | Roles, communication, code review, career |
+| [11 — Case studies](11-case-studies/) | Apply the full process to realistic systems |
 
-## Learning rules
+## How a lesson works
 
-1. Study **one main concept at a time**.
-2. Start with a simple definition, then understand why the concept exists.
-3. Use a realistic example, preferably from a Java backend application.
-4. Separate established industry practices from recommendations and personal opinions.
-5. Explain trade-offs: why a team might choose one approach instead of another.
-6. Identify common mistakes and misconceptions.
-7. Check understanding with 3–5 focused questions when appropriate.
-8. Do not move to the next concept until essential misunderstandings are resolved.
-9. Do not assign coding challenges unless I explicitly ask for them. Reasoning, design, reading, and scenario questions are welcome.
-10. Keep notes accurate, concise, useful, and written in English.
+Each lesson should answer:
+1. What does this mean?
+2. Why do software teams need it?
+3. How does it work?
+4. What is a simple real-world example?
+5. How does it connect to a Java backend or the banking project?
+6. What is it often confused with?
+7. What should I remember?
 
-## How progress is measured
+Progress is based on what you can explain and apply—not hours watched.
 
-Progress is based on what I can explain and apply—not the number of videos watched or pages read.
+## Current recommended starting point
 
-A topic can be marked:
+Begin with **01.1 — Programming vs. Software Engineering**, then **01.2 — SDLC**. You already know some terms, but the assessment shows that the bigger picture and the connections between phases need strengthening.
 
-- **Not started** — not studied yet.
-- **Learning** — studied, but understanding is incomplete.
-- **Understood** — can explain the idea and recognize it in examples.
-- **Applied** — can use the idea in a project or realistic scenario.
-- **Reviewed** — revisited after time and still understood.
-
-See [the learning roadmap](ROADMAP.md), [the learning guide](00-start-here/LEARNING-GUIDE.md), and [the progress tracker](00-start-here/PROGRESS.md).
-
-## Important note
-
-This repository is a learning record, not a claim of professional experience. Examples and case studies must be labeled clearly when they are hypothetical. Technology-specific guidance should be checked against current official documentation when versions or practices may have changed.
+See [ROADMAP.md](ROADMAP.md) for the complete sequence.
