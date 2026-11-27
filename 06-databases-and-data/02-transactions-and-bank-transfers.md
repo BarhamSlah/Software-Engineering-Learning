@@ -1,59 +1,54 @@
-# Transactions and Safe Bank Transfers
+# Transactions: Keeping Data Safe
 
-- **Phase:** 6 — Databases and Data
-- **Status:** Learning
+**Time:** 6 minutes · **Level:** Beginner
 
-## The problem
+## 1. The problem
 
-Suppose Account A has $100 and wants to send $30 to Account B.
+Imagine a bank transfer:
 
-A transfer has at least two important changes:
-1. Subtract $30 from A.
-2. Add $30 to B.
+- Account A sends $30.
+- Account B should receive $30.
 
-What if the first change succeeds but the second fails? A loses money, but B does not receive it.
+What if the money is removed from A, but an error stops it from reaching B?
 
-## What is a database transaction?
+That would be a serious problem.
 
-A **transaction** is a group of database operations treated as one unit.
+## 2. What is a transaction?
 
-For a transfer, the goal is:
-- Either both balance changes succeed.
-- Or neither change is kept.
+A **database transaction** groups related changes together.
 
-This is often described as **all or nothing**.
+For a transfer, we want:
+- Both changes to succeed, or
+- Neither change to be saved.
 
-## Simple flow
+This is called **all or nothing**.
 
-```text
-Start transaction
-      ↓
-Check accounts and amount
-      ↓
-Subtract from sender
-      ↓
-Add to receiver
-      ↓
-Commit transaction if all succeed
-      ↓
-Otherwise roll back changes
+## 3. Simple picture
+
+```
+Start
+  ↓
+Remove $30 from A
+  ↓
+Add $30 to B
+  ↓
+Both succeed? → Save both
+Any failure?  → Undo the changes
 ```
 
-**Commit** means confirm and save the transaction. **Rollback** means undo the uncommitted changes.
+- **Commit:** save the changes.
+- **Rollback:** undo changes that were not committed.
 
-## Other checks
+## 4. Why does it matter?
 
-Before a transfer, the application should also check:
-- Sender exists.
-- Receiver exists.
-- Amount is greater than zero.
-- Sender has enough money.
-- The sender is allowed to transfer.
+It helps prevent the database from keeping half of a transfer.
 
-## Important limitation
+## 5. Remember this
 
-A database transaction protects a group of database changes. The application still needs correct validation, authorization, error handling, and suitable database design.
+**A transaction helps keep related database changes together and consistent.**
 
-## Key idea
+## 6. Quick check
 
-A transfer must not leave the system in a half-completed state. Transactions help keep related data changes consistent.
+If adding money to B fails, should the removal from A remain?
+
+**Answer:** No. The transaction should be rolled back.
